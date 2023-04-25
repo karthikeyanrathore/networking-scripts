@@ -1,0 +1,16 @@
+Questions
+* Why we need an OSI model?
+* why we need ip address, when we have MAC address?
+* How an IP address is assigned? automatically / statically (DHCP)
+* Why we need subnet masking?
+* why we need a router?
+* Why backend applications should be in same subnet as database app?
+* what is ICMP and why we need it?
+* Why do firewall blocks ICMP service? is it for security reasons and how to check if it is?
+
+
+
+# OSI Model
+# Internet Protocol (IP)
+# UDP
+# TCP

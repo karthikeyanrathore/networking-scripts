@@ -1,7 +1,6 @@
-# Networking Topics
+# networking-topics
 
-=======
-* [OSI model](#osi-model)
+* OSI model
 * TCP/IP Model
 * Host-Host communication / MAC Address + IP address
 * Layer-3 (IP address basics)
@@ -38,30 +37,3 @@
 	* Deep packet anaylsis wireshark: https://www.youtube.com/watch?v=25_ftpJ-2ME&ab_channel=DavidBombal
 	* This will cover PKI
 * Why is it dangerous to host server on 0.0.0.0 ipv4 address or ::/0 ipv6 addr?
-
-
-
-# OSI model
-* Standard model for communication among different devices of different versions, operation sys etc.
-* 7 Layers 
-	* Application layer: 
-		* initiate communication
-		* (HTTP/FTP/SMTP/DHCP)
-	* Presentation layer: 
-		* prepare data in a correct format so, that the server/client can understand.
-		* For example if client is sending JSON data to server, then this layer will serialize client JSON to flat byte strings.
-	* Session layer:
-		* synchronizes data transfer with checkpoints: https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-systems-interconnection-model-osi/
-	* Transport layer:
-		* TCP/UDP
-	
-=======
-```mermaid
-flowchart TD
-    Application --- Presentation
-    Presentation --- Session
-    Session --- Transport
-    Transport --- Network
-    Network --- Data-link
-    Data-link ---  Physical
-```
